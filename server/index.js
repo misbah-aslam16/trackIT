@@ -8,7 +8,7 @@ const taskRoutes = require('./routes/taskRoutes');
 dotenv.config();
 const app = express();
 app.use(cors({
-  origin: 'https://track-it-mu-ashen.vercel.app/',
+  origin: 'https://track-it-mu-ashen.vercel.app',
   credentials: true
 }));
 
