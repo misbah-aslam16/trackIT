@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const API = axios.create({
-  baseURL: 'http://localhost:5000/api'
+  baseURL: 'https://trackit-production-494f.up.railway.app/api'
 });
 
 export const fetchTasks = (params = {}) => API.get('/tasks', { params });
